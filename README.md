@@ -12,6 +12,7 @@ servletを使った、身長と体重の入力でbmiを算出するWebブラウ�
 
 ※参考
 [肥満学会による分類](http://www.jasso.or.jp/data/magazine/pdf/chart_A.pdf)
+
 [肥満学会](http://www.jasso.or.jp/)
 
 
