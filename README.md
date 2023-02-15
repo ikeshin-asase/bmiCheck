@@ -24,9 +24,9 @@ servletを使った、身長と体重の入力でbmiを算出するWebブラウ�
 * bmi.jsp(View):ユーザーに入力してもらうファイル
 
 ### ファイルリンク
-[servletファイル](http://www.jasso.or.jp/](https://github.com/ikeshin-asase/bmiCheck/tree/main/src/main/java/bmicheck)
+[servletファイル](https://github.com/ikeshin-asase/bmiCheck/tree/main/src/main/java/bmicheck)
 
-[jspファイル](https://github.com/ikeshin-asase/bmiCheck/tree/main/src/main/java/bmicheck)](https://github.com/ikeshin-asase/bmiCheck/tree/main/src/main/webapp/WEB-INF/bmicheck)
+[jspファイル](https://github.com/ikeshin-asase/bmiCheck/tree/main/src/main/webapp/WEB-INF/bmicheck)
 
 ## プログラムプレビュー
 https://user-images.githubusercontent.com/99540305/219031453-aec7ef99-7a6b-46d3-ab2e-ce5042d200b5.webm
