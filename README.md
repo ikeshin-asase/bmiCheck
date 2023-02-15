@@ -26,7 +26,7 @@ servletを使った、身長と体重の入力でbmiを算出するWebブラウ�
 * bmi.jsp(View):ユーザーに入力してもらうファイル
 
 ## プログラムプレビュー
-作成中
+https://user-images.githubusercontent.com/99540305/219031453-aec7ef99-7a6b-46d3-ab2e-ce5042d200b5.webm
 
 ## 将来的なメンテナンスや追加など
 bmiデータの分類をクラスファイルとして設定予定
