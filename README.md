@@ -38,5 +38,5 @@ https://user-images.githubusercontent.com/99540305/219031453-aec7ef99-7a6b-46d3-
 * Model、Controller部分の切り離し
 
 ## 更新履歴
-* 2023-02-15　jspファイルのみでつくれていたプログラムをservletに修正
+* 2023-02-15　jspファイルのみで作成していたプログラムをservletを利用したファイル、構成に修正
 * 2023-02-09　基本プログラムをアップロード
