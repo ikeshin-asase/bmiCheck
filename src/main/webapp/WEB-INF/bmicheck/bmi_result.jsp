@@ -5,27 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>BMIと適正体重の計算結果</title>
-<style type="text/css">
-.match{
-    border : 1px solid black;
-    background-color : #ffc0cb; 
-    color : red;  
-}
-table{
-    border: solid 1px black;
-    border-collapse :collapse;
-}
-td{
-    border: solid 1px black;
-    border-collapse :collapse;
-}
-th{
-    background-color:#dcdcdc;
-    border : 1px solid black;
-    white-space:nowrap;
-}
-</Style>
-</head>
+<link rel ="stylesheet" href="css/style.css">
 <body>
 
 <h1>結果</h1>
