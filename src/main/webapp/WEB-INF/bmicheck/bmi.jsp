@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>BMIと適正体重(servlet)</title>
-</head>
+<link rel ="stylesheet" href="css/style.css"></head>
 <body>
 <h1 class="line">BMI算出用情報入力</h1>
 <p>適正体重を算出する方の身長と体重を入力してください。</p>
