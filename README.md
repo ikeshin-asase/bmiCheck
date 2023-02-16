@@ -1,4 +1,4 @@
-# bmiCheck
+# bmicheck
 bmiをチェックするWebページ
 
 ## プログラムの概要
