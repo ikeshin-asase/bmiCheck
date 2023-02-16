@@ -1,1 +1,46 @@
+@charset "UTF-8";
+h1.line{
+    background-color:#f5fffa;
+    color: #006400 ;
+    border-bottom : 3px dotted #556b2f;
+}
+span.required{
+	vertical-align: top; 
+	font-size:40%;
+    color : red;  
+}
 
+.line{
+    background-color : red; 
+    color : red;  
+}
+
+table{
+	border : 1px solid black;
+	border-collapse :collapse;
+	width:70%;
+}
+th{
+	background-color:#dcdcdc;
+    border : 1px solid black;
+    white-space:nowrap;
+}
+
+.center{
+	text-align:center;
+}
+
+tr td{
+    border : 1px solid black;
+    padding:0px;
+}
+.match{
+    background-color : #ffc0cb;	
+    color : red;  
+}
+div.match{
+	padding :0px;
+	margin:0px;
+    background-color : #ffc0cb; 
+    color : #8b0000;  
+}
