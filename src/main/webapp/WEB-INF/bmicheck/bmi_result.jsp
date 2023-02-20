@@ -13,7 +13,8 @@
 double bmi = (double)request.getAttribute("bmi");
 double height = (double)request.getAttribute("height");
 double weight = (double)request.getAttribute("weight");
-double appropriateWeight = (Math.pow(height /100,2)*22); //適正体重算出
+double appropriateWeight = (double)request.getAttribute("appropriateWeight");
+double comparison = (double)request.getAttribute("comparison");
 %>
 <p>あなたの身長は<%= height %>cm、体重は<%= weight %>kgです。</p>
 <%
@@ -24,32 +25,32 @@ int bmiJudge; // 該当するbmi部分の配列位置をbmiJudgeに代入
 if (bmi < 18.5) {
     bmiJudge = 0;
     bmiResult[0][2] = String.valueOf(appropriateWeight)+"kg";
-    bmiResult[0][3] = String.valueOf(weight-appropriateWeight)+"kg";
+    bmiResult[0][3] = String.valueOf(comparison)+"kg";
     bmiResult[0][4] = String.valueOf(bmi);
 } else if (bmi < 25) {
     bmiJudge = 1;
     bmiResult[1][2] = String.valueOf(appropriateWeight)+"kg";
-    bmiResult[1][3] = String.valueOf(weight-appropriateWeight)+"kg";
+    bmiResult[1][3] = String.valueOf(comparison)+"kg";
     bmiResult[1][4] = String.valueOf(bmi);
 } else if (bmi < 30){
     bmiJudge = 2;
     bmiResult[2][2] = String.valueOf(appropriateWeight)+"kg";
-    bmiResult[2][3] = String.valueOf(weight-appropriateWeight)+"kg";
+    bmiResult[2][3] = String.valueOf(comparison)+"kg";
     bmiResult[2][4] = String.valueOf(bmi);
 } else if (bmi < 35){
     bmiJudge = 3;
     bmiResult[3][2] = String.valueOf(appropriateWeight)+"kg";
-    bmiResult[3][3] = String.valueOf(weight-appropriateWeight)+"kg";
+    bmiResult[3][3] = String.valueOf(comparison)+"kg";
     bmiResult[3][4] = String.valueOf(bmi);
 } else if (bmi < 40){
     bmiJudge = 4;
     bmiResult[4][2] = String.valueOf(appropriateWeight)+"kg";
-    bmiResult[4][3] = String.valueOf(weight-appropriateWeight)+"kg";
+    bmiResult[4][3] = String.valueOf(comparison)+"kg";
     bmiResult[4][4] = String.valueOf(bmi);
 } else {
     bmiJudge = 5;
     bmiResult[5][2] = String.valueOf(appropriateWeight)+"kg";
-    bmiResult[5][3] = String.valueOf(weight-appropriateWeight)+"kg";
+    bmiResult[5][3] = String.valueOf(comparison)+"kg";
     bmiResult[5][4] = String.valueOf(bmi);
 }
 %>
